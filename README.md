@@ -9,7 +9,7 @@ This is a clone of [astro-bento-portfolio](https://github.com/withastro/astro-be
 git clone <repo>
 cd <pathname>
 
-npm install --save
-npm run dev
+pnpm install --save
+pnpm run dev
 
 ```
