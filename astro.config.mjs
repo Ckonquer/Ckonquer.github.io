@@ -6,8 +6,8 @@ import UnoCSS from "@unocss/astro";
 import solidJs from "@astrojs/solid-js";
 import { remarkReadingTime } from "./src/lib/ remark-reading-time.mjs";
 
-import vercel from "@astrojs/vercel/serverless";
-
+// import vercel from "@astrojs/vercel/serverless";
+//
 // https://astro.build/config
 export default defineConfig({
   integrations: [
@@ -26,7 +26,7 @@ export default defineConfig({
   markdown: {
     remarkPlugins: [remarkReadingTime],
   },
-  output: "server",
-  adapter: vercel(),
+  // output: "server",
+  // adapter: vercel(),
 });
 
