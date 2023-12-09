@@ -9,7 +9,7 @@ import { remarkReadingTime } from "./src/lib/ remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://Ckonquer.github.io",
+  site: "https://Ckonquer.vercel.app",
   base: "/",
   integrations: [
     sitemap(),
